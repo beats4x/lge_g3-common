@@ -106,6 +106,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf \
     $(LOCAL_PATH)/configs/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# Acbd
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/acbd/Bluetooth_cal.acdb:system/etc/acdbdata/g3/Bluetooth_cal.acdb \
+    $(LOCAL_PATH)/acbd/General_cal.acdb:system/etc/acdbdata/g3/General_cal.acdb \
+    $(LOCAL_PATH)/acbd/Global_cal.acdb:system/etc/acdbdata/g3/Global_cal.acdb \
+    $(LOCAL_PATH)/acbd/Handset_cal.acdb:system/etc/acdbdata/g3/Handset_cal.acdb \
+    $(LOCAL_PATH)/acbd/Hdmi_cal.acdb:system/etc/acdbdata/g3/Hdmi_cal.acdb \
+    $(LOCAL_PATH)/acbd/Headset_cal.acdb:system/etc/acdbdata/g3/Headset_cal.acdb \
+    $(LOCAL_PATH)/acbd/Speaker_cal.acdb:system/etc/acdbdata/g3/Speaker_cal.acdb \
+    $(LOCAL_PATH)/acbd/workspaceFile.qwsp:system/etc/acdbdata/g3/workspaceFile.qwsp 
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
